@@ -1,7 +1,7 @@
 import os
+from pathlib import Path
 from pytube import YouTube
 from moviepy.editor import AudioFileClip
-from pathlib import Path
 
 class YoutubeDownloader:
     def __init__(self, url: str, output_dir: str):
